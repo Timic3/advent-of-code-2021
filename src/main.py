@@ -14,8 +14,8 @@ def main():
         input = file.read().splitlines()
 
     object = day.TaskImpl(input)
-    print(object.solution1())
-    print(object.solution2())
+    print("Solution 1:", object.solution1())
+    print("Solution 2:", object.solution2())
 
 if __name__ == "__main__":
     main()
